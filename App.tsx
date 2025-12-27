@@ -60,7 +60,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div ref={appRef} className="w-full bg-slate-50 text-slate-900 font-sans min-h-screen overflow-hidden">
+<div ref={appRef} className="w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
       {/* Hero Section with Real Estate Background */}
       <div className="relative bg-slate-900 pt-20 pb-32 px-4 overflow-hidden">
         {/* Background Image with Overlay */}
