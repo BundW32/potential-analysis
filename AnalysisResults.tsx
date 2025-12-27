@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnalysisResult, UserInput } from '../types';
+import { AnalysisResult, UserInput } from './types';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from 'recharts';
 import { TrendingUp, ArrowRight, CheckCircle2 } from 'lucide-react';
 
