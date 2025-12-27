@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
-import InputForm from './components/InputForm';
-import AnalysisResults from './components/AnalysisResults';
+// FIX: Removed '/components/' because files are in the root
+import InputForm from './InputForm';
+import AnalysisResults from './AnalysisResults';
 import { UserInput, AnalysisResult } from './types';
-import { analyzePotential } from './services/geminiService';
+// FIX: Removed '/services/' because the file is in the root
+import { analyzePotential } from './geminiService';
 import { LineChart } from 'lucide-react';
 
 const App: React.FC = () => {
