@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PropertyType, Condition, UserInput } from '../types';
+import { PropertyType, Condition, UserInput } from './types';
 import { Calculator, MapPin, Ruler, Home, Coins } from 'lucide-react';
 
 interface InputFormProps {
